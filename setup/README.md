@@ -22,3 +22,4 @@ Once you have an Azure GPU server set up, download and run the `install-gpu-azur
 
 ### Ubuntu
 Download and run the `install-gpu.sh` script to install required software on an Ubuntu machine. More instructions available on the [wiki](http://wiki.fast.ai/index.php/Ubuntu_installation).
+### FIRE FIRE FIRE
