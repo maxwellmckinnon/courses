@@ -5,7 +5,7 @@ alias aws-ip='export instanceIp=`aws ec2 describe-instances --filters "Name=inst
 alias aws-ssh='ssh -i ~/.ssh/aws-key-fast-ai.pem ubuntu@$instanceIp'
 alias aws-stop='aws ec2 stop-instances --instance-ids $instanceId'
 alias aws-state='aws ec2 describe-instances --instance-ids $instanceId --query "Reservations[0].Instances[0].State.Name"'
-
+alias aws-mosh='mosh -6 -i ~/.ssh/aws-key-fast-ai.pem ubuntu@$instanceIp'
 
 if [[ `uname` == *"CYGWIN"* ]]
 then
