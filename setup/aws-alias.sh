@@ -24,3 +24,5 @@ then
     # This is Mac.  Use open to open the notebook
     alias aws-nb='open http://$instanceIp:8888'
 fi
+
+alias aws-go='source ~/anaconda/envs/fastai_py27/bin/activate fastai_py27;aws-get-p2;aws-start;aws-ip;sleep 2;aws-ssh'
