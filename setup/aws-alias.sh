@@ -26,5 +26,5 @@ then
 fi
 
 alias aws-go='source ~/anaconda/envs/fastai_py27/bin/activate fastai_py27;aws-get-p2;aws-start;aws-ip;sleep 2;aws-ssh'
-alias fa3="cd ~/dev/fastai/;source ~/anaconda/envs/fastai/bin/activate fastai"
 alias fa27="cd ~/dev/fastai/;source ~/anaconda/envs/fastai_py27/bin/activate fastai_py27"
+alias fa3="cd ~/dev/fastai/;source ~/anaconda/envs/fastai/bin/activate fastai"
